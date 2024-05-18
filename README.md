@@ -102,6 +102,8 @@ Puedes guardar tu trabajo presionando "Guardar" o "Guardar como" si quieres espe
 | -> Guardar/Abrir Experimentos  |
 +-------------------------------+
 
+
+
 +-------------------------------+
 | Experimento                   |
 +-------------------------------+
@@ -111,6 +113,8 @@ Puedes guardar tu trabajo presionando "Guardar" o "Guardar como" si quieres espe
 | -> Lista de Poblaciones       |
 | -> Archivo Asociado           |
 +-------------------------------+
+
+
 
 +-------------------------------------+
 | PoblacionDeBacterias                |
