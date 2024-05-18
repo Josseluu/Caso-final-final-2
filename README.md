@@ -89,3 +89,37 @@ Selecciona una población de la lista y presiona "Simular". Verás cómo crecen 
 Guardar el Experimento:
 
 Puedes guardar tu trabajo presionando "Guardar" o "Guardar como" si quieres especificar un nuevo archivo.
+
+
+**CODIGO UML**
+
++-------------------------------+
+| GestionCultivosDeBacterias    |
++-------------------------------+
+| Ventana Principal              |
+| -> Mostrar Experimentos        |
+| -> Crear/Borrar Poblaciones    |
+| -> Guardar/Abrir Experimentos  |
++-------------------------------+
+
++-------------------------------+
+| Experimento                   |
++-------------------------------+
+| Cuaderno de Experimentos      |
+| -> Nombre                     |
+| -> Fecha de Inicio            |
+| -> Lista de Poblaciones       |
+| -> Archivo Asociado           |
++-------------------------------+
+
++-------------------------------------+
+| PoblacionDeBacterias                |
++-------------------------------------+
+| Página del Cuaderno                 |
+| -> Nombre                           |
+| -> Número Inicial de Bacterias      |
+| -> Duración del Experimento (días)  |
+| -> Patrón de Comida                 |
+| -> Fecha de Creación                |
+| -> Matriz de Bacterias por Día      |
++-------------------------------------+
