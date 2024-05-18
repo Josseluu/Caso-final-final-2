@@ -61,7 +61,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         menuArchivo.add(itemGuardar);
 
-        // Guardar como
+
         JMenuItem itemGuardarComo = new JMenuItem("Guardar como");
         itemGuardarComo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
