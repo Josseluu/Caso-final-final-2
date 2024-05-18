@@ -113,7 +113,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         panelBotones.add(btnVerInfoPoblacion);
 
-        // Realizar y visualizar la simulación correspondiente con una de las poblaciones de bacterias del experimento
+
         JButton btnSimular = new JButton("Simular");
         btnSimular.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
