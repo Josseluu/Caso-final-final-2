@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Caso-final-final-2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Caso_final_final_2_jar</output-path>
+    <root id="archive" name="Caso-final-final-2.jar">
+      <element id="module-output" name="Caso-final-final-2" />
+    </root>
+  </artifact>
+</component>
