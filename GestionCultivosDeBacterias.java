@@ -44,7 +44,6 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         menuArchivo.add(itemAbrir);
 
-        // Crear un nuevo experimento
         JMenuItem itemNuevo = new JMenuItem("Nuevo Experimento");
         itemNuevo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
