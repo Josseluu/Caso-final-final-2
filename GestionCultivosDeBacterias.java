@@ -35,6 +35,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         JMenu menuArchivo = new JMenu("Archivo");
         menuBar.add(menuArchivo);
 
+        // Abrir un archivo que contenga un experimento
         JMenuItem itemAbrir = new JMenuItem("Abrir Experimento");
         itemAbrir.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -43,6 +44,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         menuArchivo.add(itemAbrir);
 
+        // Crear un nuevo experimento
         JMenuItem itemNuevo = new JMenuItem("Nuevo Experimento");
         itemNuevo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -51,6 +53,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         menuArchivo.add(itemNuevo);
 
+        // Guardar
         JMenuItem itemGuardar = new JMenuItem("Guardar");
         itemGuardar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -59,6 +62,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         menuArchivo.add(itemGuardar);
 
+        // Guardar como
         JMenuItem itemGuardarComo = new JMenuItem("Guardar como");
         itemGuardarComo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -83,6 +87,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         JPanel panelBotones = new JPanel();
         panelPrincipal.add(panelBotones, BorderLayout.SOUTH);
 
+        // Crear una población de bacterias y añadirla al experimento actual
         JButton btnAgregarPoblacion = new JButton("Agregar Población");
         btnAgregarPoblacion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -91,6 +96,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         panelBotones.add(btnAgregarPoblacion);
 
+        // Borrar una población de bacterias del experimento actual
         JButton btnBorrarPoblacion = new JButton("Borrar Población");
         btnBorrarPoblacion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -99,6 +105,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         panelBotones.add(btnBorrarPoblacion);
 
+        // Ver información detallada de una población de bacterias del experimento actual
         JButton btnVerInfoPoblacion = new JButton("Ver Información");
         btnVerInfoPoblacion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -107,6 +114,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         panelBotones.add(btnVerInfoPoblacion);
 
+        // Realizar y visualizar la simulación correspondiente con una de las poblaciones de bacterias del experimento
         JButton btnSimular = new JButton("Simular");
         btnSimular.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
