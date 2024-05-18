@@ -35,7 +35,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         JMenu menuArchivo = new JMenu("Archivo");
         menuBar.add(menuArchivo);
 
-        // Abrir un archivo que contenga un experimento
+
         JMenuItem itemAbrir = new JMenuItem("Abrir Experimento");
         itemAbrir.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
