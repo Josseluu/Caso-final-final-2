@@ -95,7 +95,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         panelBotones.add(btnAgregarPoblacion);
 
-        // Borrar una población de bacterias del experimento actual
+
         JButton btnBorrarPoblacion = new JButton("Borrar Población");
         btnBorrarPoblacion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
