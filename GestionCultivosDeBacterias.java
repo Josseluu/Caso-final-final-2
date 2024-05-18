@@ -28,7 +28,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         JPanel panelPrincipal = new JPanel(new BorderLayout());
         add(panelPrincipal);
 
-        // Menú
+
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
 
