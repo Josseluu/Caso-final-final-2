@@ -70,7 +70,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         menuArchivo.add(itemGuardarComo);
 
-        // Paneles secundarios
+
         modeloListaPoblaciones = new DefaultListModel<>();
         listaPoblaciones = new JList<>(modeloListaPoblaciones);
         listaPoblaciones.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
