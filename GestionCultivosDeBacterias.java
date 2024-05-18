@@ -24,7 +24,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Paneles y elementos de la interfaz
+
         JPanel panelPrincipal = new JPanel(new BorderLayout());
         add(panelPrincipal);
 
