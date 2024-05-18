@@ -104,7 +104,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         });
         panelBotones.add(btnBorrarPoblacion);
 
-        // Ver información detallada de una población de bacterias del experimento actual
+
         JButton btnVerInfoPoblacion = new JButton("Ver Información");
         btnVerInfoPoblacion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
