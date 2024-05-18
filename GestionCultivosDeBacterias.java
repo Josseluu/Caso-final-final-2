@@ -86,7 +86,7 @@ public class GestionCultivosDeBacterias extends JFrame {
         JPanel panelBotones = new JPanel();
         panelPrincipal.add(panelBotones, BorderLayout.SOUTH);
 
-        // Crear una población de bacterias y añadirla al experimento actual
+
         JButton btnAgregarPoblacion = new JButton("Agregar Población");
         btnAgregarPoblacion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
